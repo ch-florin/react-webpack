@@ -1,0 +1,46 @@
+git clone 
+in project folder: npm init (init package.json - manage dependencies)
+
+install react:  npm install react react-dom --save
+
+install babel:  npm install babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
+
+$ npm install webpack webpack-dev-server --save-dev
+
+install style loader: npm install style-loader css-loader --save-dev
+
+
+css file:
+https://gist.github.com/iamshaunjp/cc5a520c0ec4f9ef525a790d3c5d8706
+
+add routing:
+npm install react-router --save
+
+SASS loader:
+ npm install node-sass sass-loader --save-dev
+
+git commit -m "text message"
+git pull
+git branch hello-1
+switch branch: git checkout branch-name
+push new branch: $ git push origin hello-1
+show branches: git branch
+merge: git to master: git checkout master; git merge hello-1
+delete branch that was merged: git branch -d hello-1
+push changes to git hub: git push origin master
+delete branch from git hub: git push origin --delete hello-1
+
+git ignore: create file : .gitingnore
+help : git help gitignore
+add file into.gitignore: ex: config.php
+git add .gitignore
+git commit -m "add gitignore file"
+git push 
+
+delete folder: rm -rf .git
+rm -rf nameoffolder
+
+
+
+https://github.com/ch-florin/react-start.git
+
